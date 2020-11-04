@@ -1,14 +1,22 @@
 /* Variabes */
 /* Mixin's */
 body {
-  background: #c1d72e;
+  background: rgb(49, 129, 24);
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff;
   height: 100%;
   text-align: center;
   font-size: 18px;
 }
-
+.myjumbotron {
+    background-color: rgb(49, 129, 24);
+    color: white;
+    height: 95px;
+}
+.separator{
+	background-color: #000000;
+	height: 45px;
+}
 .wrappper {
   width: 100%;
   margin: 0 auto;
@@ -63,7 +71,7 @@ p {
   height: 30px;
   padding-top: 10px;
   background: #fff;
-  color: #c1d72e;
+  color: #000000;
   cursor: pointer;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -83,7 +91,6 @@ p {
   padding: 0;
   display: block;
 }
-
 #my-word li {
   position: relative;
   list-style: none;
@@ -123,8 +130,8 @@ button {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  background: #c1d72e;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   border: solid 1px #fff;
   text-decoration: none;
   cursor: pointer;
@@ -138,9 +145,9 @@ button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #fff;
+  background: rgb(49, 129, 24);
   border: solid 1px #fff;
-  color: #c1d72e;
+  color: #ffffff;
 }
 
 @media (max-width: 767px) {
